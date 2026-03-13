@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Cinzel:wght@400;600;700&family=Lato:wght@300;400&display=swap');
+
+:root {
+  --bordeaux: #6B2042;
+  --bordeaux-dark: #3e0f25;
+  --gold: #c9a84c;
+  --gold-light: #e4c97e;
+  --cream: #f5f0e8;
+  --dark: #1a0a10;
+  --text-light: #d4c5b0;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'Lato', sans-serif;
+  background: var(--dark);
+  color: var(--cream);
+  overflow-x: hidden;
+}
